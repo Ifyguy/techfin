@@ -1,0 +1,333 @@
+/* the body is used to style the entire content in the website*/
+body {
+    width: 1600px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: space Georgia, 'Times New Roman', Times, serif
+}
+/* the # is used to represent id while the navbar ul shows we are syling all the content in the navbar ul*/
+/* the list style is showeing if we want a bullet or number on our text*/
+#navbar ul {
+    padding: 35px;
+    list-style: none;
+}
+/* the # is used to represent id while the navbar li shows we are syling all the content in the navbar li*/
+#navbar li {
+    display: inline;
+}
+/* the # is used to represent id while the navbar a shows we are syling all the content in the navbar a*/
+/* the text-docoration is showing if we want to add any decoration to our text maybe underline*/
+#navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 250px;
+}
+/* the border is used to show if we want our text in a box, the width and the color of the border*/
+.APP {
+    border: 1px solid red
+    border-radius: 10px;
+}
+
+#update {
+    padding-top: 35px;
+    padding-left: 70px;
+    font-size: 12px;
+}
+/* inline display shows that we want all our text on the same line*/
+#update p {
+    display: inline;
+    padding-left: 15px;
+    font-size: 14px;
+}
+/* backbround colour is showing the color of our box*/
+#update h1 {
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 10pt;
+    display: inline;
+    color: white;
+    background-color: darkgray;
+}
+/* the flex display shows that we also want all our content on a row or column depending on the flex direction we use*/
+#pocket {
+    display: flex;
+    gap: 12rem;
+}
+/* the width is used to set the length of our content and the height can also be set using height */
+img {
+    width: 200px;
+}
+/* other styling used are the padding which is the inner space of the element while margin is the outer space of the element, the font size is the size of the text*/
+.pocket {
+    padding-top: 35px;
+    padding-left: 70px;
+    font-size: 90px;
+}
+
+.text {
+    padding-top: 25px;
+    padding-left: 70px;
+}
+
+#next {
+    padding-top: 25px;
+    padding-left: 70px;
+    font-size: 12px;
+}
+/* other styling used are the color which is either color name or rgb, text allign which showes where a text should be either right, left or center*/
+#next p {
+        display: inline;
+        padding-left: 50px;
+        font-size: 14px;
+        color: rgb(250, 236, 236);
+}
+
+#next h1 {
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 10pt;
+        display: inline;
+        color: white;
+        background-color: darkgray;
+}
+
+#container {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 600px;
+    text-align: center;
+}
+#container ul {
+    padding: 35px;
+    list-style: none;
+    
+}
+
+#container li {
+    display: inline;
+    
+}
+
+#container a {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 50px;
+    border-radius: 8px;
+    text-align: auto;;
+}  
+
+.features {
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 10pt;
+    margin: 20px;
+    display: inline;
+    color: white;
+    background-color: darkgray;
+}
+
+#automate {
+    padding-top: 35px;
+    padding-left: 70px;
+    font-size: 90px;
+    text-align: center;
+}
+
+#standard {
+    padding-top: 35px;
+    padding-left: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: #26262b;
+}
+
+.instantly {
+    text-align: center;
+    color: white;
+}
+/*we also have the font family which shows the type of font we want to use, font can also be linked from google font*/
+#box-1 {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    font-size: 14px;
+    color: white;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+    float: left;
+    width: 25%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #26262b;
+    box-sizing: border-box;
+}
+
+.box1 {
+    float: left;
+    width: 25%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #26262b;
+    box-sizing: border-box;
+}
+
+.box2 {
+    float: left;
+    width: 25%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #26262b;
+    box-sizing: border-box;
+}
+
+.box3 {
+    float: left;
+    width: 25%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #26262b;
+    box-sizing: border-box;
+}
+
+.box4 {
+    float: left;
+    width: 25%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #26262b;
+    box-sizing: border-box;
+}
+
+.box5 {
+    float: left;
+    width: 25%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 30x;
+    margin-bottom: 30px;
+    background-color: #26262b;
+    box-sizing: border-box;
+}
+#stock {
+    padding-left: 200px;
+}
+
+.house {
+    padding: 8px;
+    font-size: 30px;
+}
+
+.stock {
+    padding: 8px;
+    font-size: 30px;
+}
+
+.security {
+    font-size: 30px;
+    padding: 8px;
+}
+#debit {
+    display: flex;
+    gap: 30rem;
+}
+.image1 {
+    width: 290px;
+}
+
+#debit-card {
+    border: 1px solid #26262b;
+    background-color: #26262b;
+    margin: 150px;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.send {
+    padding-left: 300px;
+    padding-top: 50px;
+    display: inline;
+}
+
+.receive {
+    display: inline;
+    padding-left: 100px;
+}
+
+hr {
+    margin: 50px;
+    columns: #000000;
+}
+
+.trans {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.connect {
+    padding-left: 50px;
+    font-size: 45px;
+}
+
+.network {
+    padding-left: 50px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.started {
+    border: 1px solid #1e1e1e;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 20px;
+    font-size: 20px;
+    display: inline;
+    margin-left: 50px;
+    width: 20px;
+
+}
+.image2 {
+    width: 20px;
+    height: 40px;
+}
+#last {
+    display: flex;
+    justify-content: space-around;
+}
+.image3 {
+    width: 20px;
+}
+.peer {
+    display: flex;
+    gap: 2px;
+}
+.wave {
+    display: flex;
+    gap: 2px;
+}
+.thepeer {
+    font-size: 18px;
+}
+.flu {
+    color: rgba(197, 192, 192, 0.699);
+}
